@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1AFB4CD2575589F008987FF /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFB4CC2575589F008987FF /* EmojiTableViewController.swift */; };
+		D1AFB4D12575B47D008987FF /* EmojiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFB4D02575B47D008987FF /* EmojiDetailViewController.swift */; };
 		D1C96E3A257315C2003370F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C96E39257315C2003370F0 /* AppDelegate.swift */; };
 		D1C96E3C257315C2003370F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C96E3B257315C2003370F0 /* SceneDelegate.swift */; };
-		D1C96E3E257315C2003370F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C96E3D257315C2003370F0 /* ViewController.swift */; };
 		D1C96E41257315C2003370F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C96E3F257315C2003370F0 /* Main.storyboard */; };
 		D1C96E43257315C5003370F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1C96E42257315C5003370F0 /* Assets.xcassets */; };
 		D1C96E46257315C5003370F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C96E44257315C5003370F0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1AFB4CC2575589F008987FF /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		D1AFB4D02575B47D008987FF /* EmojiDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiDetailViewController.swift; sourceTree = "<group>"; };
 		D1C96E36257315C2003370F0 /* emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1C96E39257315C2003370F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1C96E3B257315C2003370F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D1C96E3D257315C2003370F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1C96E40257315C2003370F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1C96E42257315C5003370F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1C96E45257315C5003370F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				D1C96E39257315C2003370F0 /* AppDelegate.swift */,
 				D1C96E3B257315C2003370F0 /* SceneDelegate.swift */,
-				D1C96E3D257315C2003370F0 /* ViewController.swift */,
 				D1C96E3F257315C2003370F0 /* Main.storyboard */,
+				D1AFB4CC2575589F008987FF /* EmojiTableViewController.swift */,
 				D1C96E42257315C5003370F0 /* Assets.xcassets */,
 				D1C96E44257315C5003370F0 /* LaunchScreen.storyboard */,
 				D1C96E47257315C5003370F0 /* Info.plist */,
+				D1AFB4D02575B47D008987FF /* EmojiDetailViewController.swift */,
 			);
 			path = emoji;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C96E3E257315C2003370F0 /* ViewController.swift in Sources */,
+				D1AFB4D12575B47D008987FF /* EmojiDetailViewController.swift in Sources */,
 				D1C96E3A257315C2003370F0 /* AppDelegate.swift in Sources */,
+				D1AFB4CD2575589F008987FF /* EmojiTableViewController.swift in Sources */,
 				D1C96E3C257315C2003370F0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
